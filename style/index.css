@@ -18,9 +18,9 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	outline: 0;
 	}
 body {
-	background: white;
+    background-color: #ffd7ba;
 	line-height: 1.5;
-	color: black;
+	color: #023047;
 	}
 ol, ul {
 	list-style: none;
@@ -45,3 +45,49 @@ blockquote, q {
 
 
 /* Add CSS styling here */
+
+header{
+    background-color: #fec89a;
+}
+
+
+h1{
+    font-size: 300%;
+}
+#top{
+    display:flex;
+    border: 3px solid red;
+}
+
+#bottom{
+    display:flex;
+    flex-flow: row wrap;
+    border: 3px solid blue;
+}
+
+.gallery{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    border: hotpink solid 3px;
+}
+
+.image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    width: 20%;
+    border: 3px solid green;
+}
+.gallery img{
+    display:flex;
+    width: 100%;
+    border: 3px solid orange;
+}
+
+
+footer{
+    background-color: #fec89a;
+}
