@@ -53,10 +53,19 @@ blockquote, q {
 header{
     background-color: #fec89a;
 }
+header section{
+    margin: 0 6%;
+    display: flex;
+    flex-direction:column;
+}
 h1{
     font-size: 200%;
 }
 
+button a{
+    text-decoration: none;
+    color:#023047;
+}
 
 
 /*Top Section*/
@@ -65,12 +74,12 @@ h1{
     display:flex;
     justify-content: center;
     align-items: flex-end;
-    margin: 2%;
+    margin: 2% 4%;
 }
 .profile, .intro{
-    display: block;
+    display: inline-block;
     width: 50%;
-    margin: 0 1%;
+    margin: 0 1.5%;
 }
 .profile{
     display:flex;
@@ -85,24 +94,14 @@ h1{
     flex-direction: column;
     align-content: flex-end;
     justify-content: flex-end;
-    font-size: smaller;
-    margin: 0 13% 1% 1%;
-    border: 3px solid blue;
+    margin: 0 7% 1% 4%;
 }
-
-
-
-
-
-
-
 
 
 /*Bottom Section*/
 #bottom{
     display:flex;
     flex-flow: row wrap;
-    border: 3px solid blue;
 }
 
 .gallery{
@@ -110,20 +109,18 @@ h1{
     flex-flow: row wrap;
     justify-content: center;
     align-content: center;
-    border: hotpink solid 3px;
 }
 
 .image{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: space-around;
-    width: 23%;
-    border: 3px solid green;
+    align-items: space-around;
+    width: 20%;
+    margin: 1.5%;
 }
 .gallery img{
     width: 100%;
-    border: 3px solid orange;
 }
 
 
@@ -133,4 +130,16 @@ footer{
     display:flex;
     justify-content: center;
     background-color: #fec89a;
+}
+
+footer div{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+
+footer p{
+    margin-bottom: 3%;
 }
