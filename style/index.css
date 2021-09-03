@@ -62,37 +62,37 @@ h1{
     font-size: 230%;
     margin-top: 1%;
 }
-
 button a{
     text-decoration: none;
     color:#023047;
 }
-
 #hometext{
     color: #fee5cb;
 }
-
 nav{
     display:flex;
     margin-left: 2.5%;
     margin-top: 1%;
 }
-
 nav button{
-    width: 10%;
+    width: 14vh;
     margin-bottom: 2%;
     background-color: #ffd7ba;
     border-color: #ffd7bae7;
     border-radius: 10%;
 }
 
+nav button:hover{
+    opacity: 0.7;
+    cursor:pointer;
+}
 #home{
     background-color: #f0908a;
-    color: white;
+    color: #023047;
+    width: 14vh;
 }
 
 /*Top Section*/
-
 #top{
     display:flex;
     justify-content: center;
@@ -119,12 +119,10 @@ nav button{
     justify-content: flex-end;
     margin: 0 7% 1% 4%;
 }
-
 h2{
     font-size: larger;
     margin-bottom: 1%;
 }
-
 .intro button{
     width: 25%;
     margin-bottom: 2%;
@@ -133,20 +131,17 @@ h2{
     border-radius: 10%;
 }
 
-
 /*Bottom Section*/
 #bottom{
     display:flex;
     flex-flow: row wrap;
 }
-
 .gallery{
     display:flex;
     flex-flow: row wrap;
     justify-content: center;
     align-content: center;
 }
-
 .image{
     display: flex;
     flex-wrap: wrap;
@@ -159,15 +154,12 @@ h2{
     width: 100%;
 }
 
-
-
 /*Footer*/
 footer{
     display:flex;
     justify-content: center;
     background-color: #fec89a;
 }
-
 footer div{
     display:flex;
     justify-content: center;
@@ -176,15 +168,69 @@ footer div{
     margin-bottom: 3%;
     margin-top: 2%;
 }
-
 footer p{
     margin-bottom: 3%;
     font-size: larger;
 }
-
 footer button{
     width: 70%;
     background-color: #ffd7ba;
     border-color: #ffcaa3c7;
     border-radius: 10%;
+}
+
+
+/*ABOUT PAGE*/
+
+.navContainer{
+    background-color:palevioletred;
+    position:fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navContainer a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:12vh;
+    background-color: pink;
+    color: #444444;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.navContainer a:hover{
+    opacity: 0.7;
+}
+
+
+.herodiv{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-content: center;
+    height: 40vh;
+    margin-bottom: 20px;
+}
+
+.aboutdiv{
+    display:flex;
+    visibility:hidden;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 25%;
+    background-color: teal;
+}
+
+.aboutdiv p{
+    font-size: 30px;
+    background-color: whitesmoke;
+}
+
+.aboutphoto{
+    height: 100%;
+    filter: grayscale(100%)
 }
