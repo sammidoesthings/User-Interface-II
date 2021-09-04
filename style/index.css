@@ -82,10 +82,6 @@ nav button{
     border-radius: 10%;
 }
 
-nav button:hover{
-    opacity: 0.7;
-    cursor:pointer;
-}
 #home{
     background-color: #f0908a;
     color: #023047;
@@ -180,57 +176,152 @@ footer button{
 }
 
 
+
+
+/*ABOUT PAGE*/
+/*ABOUT PAGE*/
+/*ABOUT PAGE*/
+/*ABOUT PAGE*/
 /*ABOUT PAGE*/
 
-.navContainer{
-    background-color:palevioletred;
-    position:fixed;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+
+
+/*General Styling*/
+* {
+    font-family: 'Patrick Hand', cursive;
 }
 
-.navContainer a{
+/* Header */
+.about-header{
+    background-color: #e6ccb2;
+}
+.about-header section{
+    margin: 0 6%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width:12vh;
-    background-color: pink;
-    color: #444444;
+    flex-direction:column;
+}
+h1{
+    font-size: 230%;
+    margin-top: 1%;
+}
+button a{
     text-decoration: none;
-    margin-right: 20px;
+    color:#023047;
 }
-
-.navContainer a:hover{
-    opacity: 0.7;
+#hometext-about{
+    color: #fee5cb;
 }
-
-
-.herodiv{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
-    align-content: center;
-    height: 40vh;
-    margin-bottom: 20px;
-}
-
-.aboutdiv{
+nav{
     display:flex;
-    visibility:hidden;
+    margin-left: 2.5%;
+    margin-top: 1%;
+}
+nav button{
+    width: 14vh;
+    margin-bottom: 2%;
+    background-color: #ffd7ba;
+    border-color: #ffd7bae7;
+    border-radius: 10%;
+}
+
+
+.about-body{
+    background-color: #ede0d4;
+    color: #332217;
+}
+
+
+/*Top Section*/
+#about-top{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-image: url(https://images.unsplash.com/photo-1416339442236-8ceb164046f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=692&q=80);
+    background-image: stretch;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    height: 60vh;
+    margin: 2% 20%;
+}
+
+
+.title-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.h2about{
+    font-size: 50px;
+    color: #332217;
+    margin-top: 15%;
+}
+#home-about{
+    background-color: #ede0d4;
+    width: 20vh;
+    height: 5vh;
+    border-radius: 5px;
+    border-color:#e6ccb2;
+}
+
+
+
+/*Bottom Section*/
+#about-bottom{
+    display:flex;
+    flex-flow: row wrap;
+    margin-top: 1.5%;
+    padding-top: 3%;
+    border-top: 2px dashed #332217;
+    margin: 0 5%;
+}
+.about-gallery{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 0 1%;
+}
+.about-image{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    width: 25%;
-    background-color: teal;
+    width: 30%;
+    margin: 0 1%;
+}
+.about-gallery img{
+    width: 75%;
+    border-radius: 10px;
+}
+.about-gallery p{
+    margin-bottom: 7%;
+    font-size: 25px;
 }
 
-.aboutdiv p{
-    font-size: 30px;
-    background-color: whitesmoke;
+/*Footer*/
+.about-footer{
+    display:flex;
+    justify-content: center;
+    background-color: #e6ccb2;
 }
-
-.aboutphoto{
-    height: 100%;
-    filter: grayscale(100%)
+.about-footer div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+.about-footer p{
+    margin-bottom: 3%;
+    font-size: larger;
+}
+.about-footer button{
+    width: 70%;
+    background-color: #ffe8d6;
+    border-color: #ffcaa3c7;
+    border-radius: 10%;
 }
