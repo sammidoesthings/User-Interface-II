@@ -316,8 +316,14 @@ nav button{
 }
 
 
+
+
 /*MEDIA QUERIES @800px and @500px BELOW*/
 
+/*MEDIA QUERY @800px*/
+
+
+/*MEDIA QUERY @500px*/
 @media (max-width: 500px){
     header{
         width: 88%;
@@ -342,16 +348,17 @@ nav button{
 
     #top{
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         align-content: center;
         flex-flow: column wrap;
-        width: 80%;
+        width: 90%;
     }
     .profile, .intro{
-        width: 85%;
+        width: 90%;
     }
     .profile{
         width: 92%;
+        margin-right: 12%;
     }
     .profile img{
         width: 100%;
@@ -359,6 +366,8 @@ nav button{
     .intro{
         display: flex;
         text-align: center;
+        justify-content: center;
+        margin: 0 13%;
     }
     .intro h2{
         font-size: xx-large;
@@ -373,8 +382,9 @@ nav button{
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
-        width: 80%;
+        width: 90%;
         margin: 0 4%;
+        /* border: 2px solid red; */
     }
     .gallery{
         width: 100%;
@@ -385,7 +395,7 @@ nav button{
     }
 
     footer{
-        width: 89%;
+        width: 100%;
     }
     footer div{
         width: 50%;
