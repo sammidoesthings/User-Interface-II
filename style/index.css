@@ -321,11 +321,11 @@ nav button{
 @media (max-width: 500px){
     header{
         width: 88%;
+        background-color: #ffd7ba;
     }
     header section{
         display: flex;
         align-items: center;
-        border: 2px solid blue;
     }
     h1{
         font-size: 50px;
@@ -333,53 +333,12 @@ nav button{
     nav{
         display: flex;
         flex-flow: column wrap;
-        border: 2px solid green;
+        padding-bottom: 2%;
     }
-
-
-    /* header{
-        background-color: #fec89a;
+    nav button {
+        height: 4vh;
+        font-size: larger;
     }
-    header section{
-        margin: 0 6%;
-        display: flex;
-        flex-direction:column;
-    }
-    h1{
-        font-size: 230%;
-        margin-top: 1%;
-    }
-    button a{
-        text-decoration: none;
-        color:#023047;
-    }
-    #hometext{
-        color: #fee5cb;
-    }
-    nav{
-        display:flex;
-        margin-left: 2.5%;
-        margin-top: 1%;
-    }
-    nav button{
-        width: 14vh;
-        margin-bottom: 2%;
-        background-color: #ffd7ba;
-        border-color: #ffd7bae7;
-        border-radius: 5px;
-    }
-    
-    #home{
-        background-color: #f0908a;
-        color: #023047;
-        width: 14vh;
-    } */
-
-
-
-
-
-
 
     #top{
         display: flex;
@@ -387,14 +346,12 @@ nav button{
         align-content: center;
         flex-flow: column wrap;
         width: 80%;
-        border: 2px solid yellow;
     }
     .profile, .intro{
         width: 85%;
     }
     .profile{
         width: 92%;
-        border: 2px solid green;
     }
     .profile img{
         width: 100%;
@@ -402,7 +359,6 @@ nav button{
     .intro{
         display: flex;
         text-align: center;
-        /* border: 2px solid blue; */
     }
     .intro h2{
         font-size: xx-large;
@@ -419,51 +375,24 @@ nav button{
         justify-content: center;
         width: 80%;
         margin: 0 4%;
-        border: 2px solid red;
     }
-
     .gallery{
         width: 100%;
-        border: 2px solid blue;
     }
-
     .image{
         width: 45%;
         margin-bottom: 6%;
-        border: 2px solid green;
     }
 
     footer{
         width: 89%;
-        /* border: 2px solid red; */
     }
     footer div{
         width: 50%;
         font-size: x-large;
     }
+    footer button{
+        height: 4vh;
+        font-size: large;
+    }
 }
-
-
-
-/*Index Bottom Section*/
-/* #bottom{
-    display:flex;
-    flex-flow: row wrap;
-}
-.gallery{
-    display:flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-content: center;
-}
-.image{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: space-around;
-    width: 20%;
-    margin: 1.5%;
-}
-.gallery img{
-    width: 100%;
-} */
