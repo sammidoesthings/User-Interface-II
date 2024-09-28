@@ -1,1 +1,327 @@
-/* Add CSS styling here */
+/*CSS RESET*/
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+    background-color: #ffd7ba;
+	line-height: 1.5;
+    color: #272D2D;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
+
+
+/*General Styling*/
+* {
+    font-family: 'Patrick Hand', cursive;
+}
+
+/* Header */
+header{
+    background-color: #fec89a;
+}
+header section{
+    margin: 0 6%;
+    display: flex;
+    flex-direction:column;
+}
+h1{
+    font-size: 230%;
+    margin-top: 1%;
+}
+button a{
+    text-decoration: none;
+    color:#023047;
+}
+#hometext{
+    color: #fee5cb;
+}
+nav{
+    display:flex;
+    margin-left: 2.5%;
+    margin-top: 1%;
+}
+nav button{
+    width: 14vh;
+    margin-bottom: 2%;
+    background-color: #ffd7ba;
+    border-color: #ffd7bae7;
+    border-radius: 10%;
+}
+
+#home{
+    background-color: #f0908a;
+    color: #023047;
+    width: 14vh;
+}
+
+/*Top Section*/
+#top{
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 2% 4%;
+}
+.profile, .intro{
+    display: inline-block;
+    width: 50%;
+    margin: 0 1.5%;
+}
+.profile{
+    display:flex;
+    align-items: center;
+}
+.profile img{
+    width: 97.5%;
+    justify-content: center;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    justify-content: flex-end;
+    margin: 0 7% 1% 4%;
+}
+h2{
+    font-size: larger;
+    margin-bottom: 1%;
+}
+.intro button{
+    width: 25%;
+    margin-bottom: 2%;
+    background-color: #fec89a;
+    border-color: #ffd7bae3;
+    border-radius: 10%;
+}
+
+/*Bottom Section*/
+#bottom{
+    display:flex;
+    flex-flow: row wrap;
+}
+.gallery{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+.image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-around;
+    width: 20%;
+    margin: 1.5%;
+}
+.gallery img{
+    width: 100%;
+}
+
+/*Footer*/
+footer{
+    display:flex;
+    justify-content: center;
+    background-color: #fec89a;
+}
+footer div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+footer p{
+    margin-bottom: 3%;
+    font-size: larger;
+}
+footer button{
+    width: 70%;
+    background-color: #ffd7ba;
+    border-color: #ffcaa3c7;
+    border-radius: 10%;
+}
+
+
+
+
+/*ABOUT PAGE*/
+/*ABOUT PAGE*/
+/*ABOUT PAGE*/
+/*ABOUT PAGE*/
+/*ABOUT PAGE*/
+
+
+
+/*General Styling*/
+* {
+    font-family: 'Patrick Hand', cursive;
+}
+
+/* Header */
+.about-header{
+    background-color: #e6ccb2;
+}
+.about-header section{
+    margin: 0 6%;
+    display: flex;
+    flex-direction:column;
+}
+h1{
+    font-size: 230%;
+    margin-top: 1%;
+}
+button a{
+    text-decoration: none;
+    color:#023047;
+}
+#hometext-about{
+    color: #fee5cb;
+}
+nav{
+    display:flex;
+    margin-left: 2.5%;
+    margin-top: 1%;
+}
+nav button{
+    width: 14vh;
+    margin-bottom: 2%;
+    background-color: #ffd7ba;
+    border-color: #ffd7bae7;
+    border-radius: 10%;
+}
+
+
+.about-body{
+    background-color: #ede0d4;
+    color: #332217;
+}
+
+
+/*Top Section*/
+#about-top{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-image: url(https://images.unsplash.com/photo-1416339442236-8ceb164046f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=692&q=80);
+    background-image: stretch;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    height: 60vh;
+    margin: 2% 20%;
+}
+
+
+.title-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.h2about{
+    font-size: 50px;
+    color: #332217;
+    margin-top: 15%;
+}
+#home-about{
+    background-color: #ede0d4;
+    width: 20vh;
+    height: 5vh;
+    border-radius: 5px;
+    border-color:#e6ccb2;
+}
+
+
+
+/*Bottom Section*/
+#about-bottom{
+    display:flex;
+    flex-flow: row wrap;
+    margin-top: 1.5%;
+    padding-top: 3%;
+    border-top: 2px dashed #332217;
+    margin: 0 5%;
+}
+.about-gallery{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 0 1%;
+}
+.about-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin: 0 1%;
+}
+.about-gallery img{
+    width: 75%;
+    border-radius: 10px;
+}
+.about-gallery p{
+    margin-bottom: 7%;
+    font-size: 25px;
+}
+
+/*Footer*/
+.about-footer{
+    display:flex;
+    justify-content: center;
+    background-color: #e6ccb2;
+}
+.about-footer div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+.about-footer p{
+    margin-bottom: 3%;
+    font-size: larger;
+}
+.about-footer button{
+    width: 70%;
+    background-color: #ffe8d6;
+    border-color: #ffcaa3c7;
+    border-radius: 10%;
+}
